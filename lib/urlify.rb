@@ -39,7 +39,7 @@ module URLify
   # Removes diacritics from an input string's characters.
   # 
   # So a lowercase 'u' with an umlaut, ü, becomes u, while an uppercase 'A'
-  # with an accute accent, Á, becomes A. This method is UTF-8 safe.
+  # with an acute accent, Á, becomes A. This method is UTF-8 safe.
   def self.deaccentuate(string)
     (RUBY_VERSION >= "1.9.0" ? string.chars : string.split(//u)).map {|c|
       ACCENTMAP.has_key?(c) ? ACCENTMAP[c] : c

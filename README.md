@@ -24,12 +24,21 @@ API
     
     URLify.urlify "Moses Schönfinkel", "-"  # => "moses-schoenfinkel"
 
-Non `a-z` characters are removed by the `deaccentuate` and `urlify` methods,
-and only characters in URLify's accent library will be replaced by their ASCII
-counterparts.
+The `URLify` module may be mixed into the `String` class to add the above class
+methods--`deaccentuate`, `strip_subtitle` and `urlify`--as instance methods on
+the `String` class. It is not mixed in by default, for obvious reasons.
 
-If the library doesn't include a particular conversion, please consider forking
-the project and adding it.
+    class String
+      include URLify
+    end
+    
+    "Grundzüge der theoretischen Logik".urlify
+      # => "grundzuge_der_theoretischen_logik"
+
+Please note that non-`a-z` characters are removed by the `deaccentuate` and
+`urlify` methods, and only characters in URLify's accent library will be
+replaced by their ASCII counterparts. If the library doesn't include a
+particular conversion, please consider forking the project and adding it.
 
 
 Licence

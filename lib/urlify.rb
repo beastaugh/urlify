@@ -45,4 +45,22 @@ module URLify
       ACCENTMAP[c] || c
     }.join("")
   end
+  
+  # Instance method version of URLify.urlify, so that the library can be used
+  # as a mixin for the String class.
+  def urlify(separator = "_")
+    URLify.urlify(self, separator)
+  end
+  
+  # Instance method version of URLify.strip_subtitle, so that the library can
+  # be used as a mixin for the String class.
+  def strip_subtitle
+    URLify.strip_subtitle(self)
+  end
+  
+  # Instance method version of URLify.deaccentuate, so that the library can be
+  # used as a mixin for the String class.
+  def deaccentuate
+    URLify.deaccentuate(self)
+  end
 end

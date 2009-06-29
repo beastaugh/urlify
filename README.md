@@ -14,7 +14,7 @@ Installation
 API
 ---
 
-    URLify.deaccentuate("Kurt Gödel")       # => "Kurt Godel"
+    URLify.deaccentuate "Kurt Gödel"        # => "Kurt Godel"
     
     URLify.strip_subtitle "Begriffsschrift:
       eine der arithmetischen nachgebildete

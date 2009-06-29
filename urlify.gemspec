@@ -6,11 +6,20 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Benedict Eastaugh"]
-  s.date = %q{2009-06-27}
+  s.date = %q{2009-06-29}
   s.description = %q{A small library for converting accented characters to their ASCII equivalents.}
   s.email = %q{benedict@eastaugh.net}
   s.extra_rdoc_files = [
     "README.md"
+  ]
+  s.files = [
+    "README.md",
+     "Rakefile",
+     "VERSION.yml",
+     "lib/urlify.rb",
+     "lib/urlify/accents.rb",
+     "test/urlify_test.rb",
+     "urlify.gemspec"
   ]
   s.homepage = %q{http://ionfish.github.com/urlify/}
   s.rdoc_options = ["--charset=UTF-8"]

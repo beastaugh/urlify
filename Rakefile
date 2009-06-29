@@ -4,7 +4,7 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |s|
     s.name = "urlify"
-    s.summary = "Diacritic conversion"
+    s.summary = "Convert accented characters to their ASCII equivalents"
     s.email = "benedict@eastaugh.net"
     s.homepage = "http://ionfish.github.com/urlify/"
     s.description = "A small library for converting accented characters " +

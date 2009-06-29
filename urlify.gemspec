@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
      "VERSION.yml",
      "lib/urlify.rb",
      "lib/urlify/accents.rb",
+     "pkg/.gitignore",
      "test/urlify_test.rb",
      "urlify.gemspec"
   ]
@@ -25,7 +26,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.4}
-  s.summary = %q{Diacritic conversion}
+  s.summary = %q{Convert accented characters to their ASCII equivalents}
   s.test_files = [
     "test/urlify_test.rb"
   ]

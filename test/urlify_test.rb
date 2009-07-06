@@ -21,6 +21,11 @@ class URLifyTest < Test::Unit::TestCase
   
   def test_deaccentuation
     assert_equal("Soeren Kierkegaard", URLify.deaccentuate(@philosopher))
+    assert_equal("Tomek Bartoszynski", URLify.deaccentuate("Tomek Bartoszyński"))
+    assert_equal("Jozef Maria Bochenski", URLify.deaccentuate("Józef Maria Bocheński"))
+    assert_equal("Jerzy Los", URLify.deaccentuate("Jerzy Łoś"))
+    assert_equal("Jan Lukasiewicz", URLify.deaccentuate("Jan Łukasiewicz"))
+    assert_equal("Chaim Perelman", URLify.deaccentuate("Chaïm Perelman"))
   end
   
   def test_mixin_deaccentuation

@@ -6,7 +6,7 @@ begin
     s.name = "urlify"
     s.summary = "Convert accented characters to their ASCII equivalents"
     s.email = "benedict@eastaugh.net"
-    s.homepage = "http://ionfish.github.com/urlify/"
+    s.homepage = "http://github.com/ionfish/urlify"
     s.description = "A small library for converting accented characters " +
                     "to their ASCII equivalents."
     s.authors = ["Benedict Eastaugh"]

@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
      "test/urlify_test.rb",
      "urlify.gemspec"
   ]
-  s.homepage = %q{http://ionfish.github.com/urlify/}
+  s.homepage = %q{http://github.com/ionfish/urlify}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}

@@ -12,7 +12,7 @@ Installation
 
 URLify is available from [Gemcutter][gc] and in source form on [GitHub][gh].
 
-[gc]: http://gemcutter.org/gems/stylish
+[gc]: http://gemcutter.org/gems/urlify
 [gh]: http://github.com/ionfish/urlify
 
 

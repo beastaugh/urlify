@@ -8,7 +8,12 @@ ASCII-safe URI creation. It also includes a utility method to remove subtitles.
 Installation
 ------------
 
-    sudo gem install ionfish-urlify -s http://gems.github.com/
+    sudo gem install urlify
+
+URLify is available from [Gemcutter][gc] and in source form on [GitHub][gh].
+
+[gc]: http://gemcutter.org/gems/stylish
+[gh]: http://github.com/ionfish/urlify
 
 
 API

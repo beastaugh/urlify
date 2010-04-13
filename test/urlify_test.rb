@@ -1,4 +1,11 @@
+#!/usr/bin/env ruby
 # encoding: UTF-8
+
+lib = File.expand_path('../../lib/', __FILE__)
+$:.unshift lib unless $:.include?(lib)
+
+require 'test/unit'
+require 'urlify'
 
 class String
   include URLify

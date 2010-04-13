@@ -8,7 +8,7 @@ ASCII-safe URI creation. It also includes a utility method to remove subtitles.
 Installation
 ------------
 
-    sudo gem install urlify
+    gem install urlify
 
 URLify is available from [Gemcutter][gc] and in source form on [GitHub][gh].
 

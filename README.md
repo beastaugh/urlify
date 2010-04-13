@@ -10,9 +10,9 @@ Installation
 
     gem install urlify
 
-URLify is available from [Gemcutter][gc] and in source form on [GitHub][gh].
+URLify is available from [RubyGems.org][rg] and in source form on [GitHub][gh].
 
-[gc]: http://gemcutter.org/gems/urlify
+[rg]: http://gemcutter.org/gems/urlify
 [gh]: http://github.com/ionfish/urlify
 
 

@@ -28,6 +28,7 @@ class URLifyTest < Test::Unit::TestCase
   
   def test_deaccentuation
     assert_equal("Soeren Kierkegaard", URLify.deaccentuate(@philosopher))
+    assert_equal("Karl Weierstrass", URLify.deaccentuate("Karl Weierstraß"))
     assert_equal("Tomek Bartoszynski", URLify.deaccentuate("Tomek Bartoszyński"))
     assert_equal("Jozef Maria Bochenski", URLify.deaccentuate("Józef Maria Bocheński"))
     assert_equal("Jerzy Los", URLify.deaccentuate("Jerzy Łoś"))
